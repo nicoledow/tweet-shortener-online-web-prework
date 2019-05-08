@@ -37,5 +37,5 @@ def bulk_tweet_shortener(array_of_tweets)
     shortened_tweets << word_substituter(tweet)
   end
   
-  puts shortened_tweets
+  puts shortened_tweets.flatten
 end
