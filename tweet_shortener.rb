@@ -34,8 +34,7 @@ def bulk_tweet_shortener(array_of_tweets)
   shortened_tweets = []
   
   array_of_tweets.each do |tweet|
-    shortened_tweets << word_substituter(tweet)
+    puts word_substituter(tweet)
   end
   
-  puts shortened_tweets.to_s
 end
